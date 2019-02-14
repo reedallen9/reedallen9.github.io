@@ -1,0 +1,90 @@
+body {
+	font-family: Verdana;
+		background-image: url("scene.jpg");
+	margin: 0;
+	padding: 0;
+	background-position: top-right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+header img {
+	width:75%;
+	text-align: middle;
+	
+}
+header {
+	padding: 10px;
+	text-align: center;
+	
+	background-position: 
+	background-image: linear-gradient (navy, blue);
+	
+	
+}
+nav {
+	background-color: #30448B;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: Georgia;
+}
+nav li {
+	display: inline;
+	/*padding: 10px; */
+	
+}
+nav ul {margin: 0;
+padding: 0;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color: navy;
+	background-color: #289946;
+	font-size: 30px;
+}
+
+section {
+	background-color: white;
+	
+padding: 10px;	
+overflow: auto;
+}
+.bgpic {
+	width: 50%;
+	float: right;
+}
+
+.button {
+	background-color: navy;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+a.button:hover {
+	background-color: #289946;
+	
+}
+
+footer {
+	background-color: #289946; color: white; 
+	padding: 10px;
+	text-align: center;
+}
