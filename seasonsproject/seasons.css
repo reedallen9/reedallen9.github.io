@@ -1,0 +1,192 @@
+
+
+
+body {
+	font-family: Verdana;
+	margin: 0;
+	padding: 0;
+}
+body.header {
+	text-color: blue;
+}
+body.spring {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+body.autumn { 
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.spring {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.winter{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.autumn {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.summer {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+body.summer {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+body.winter {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+nav {
+	background-color: #30448B;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "Courier New", courier, monospace;
+}
+nav li {
+	display: inline;
+	/*padding: 10px; */
+	
+}
+nav ul {margin: 0;
+padding: 0;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	
+}
+
+nav a:hover {
+	color: white;
+	background-color: #B28744;
+	font-size: 20px;
+}
+footer.spring {
+	background-color: #42A10A; 
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+footer.summer{
+	background-color: #DFFA2B; 
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+footer.winter{
+	background-color: blue; 
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+footer.autumn{
+	background-color: #FFB92C; 
+	color: white; 
+	padding: 10px;
+	text-align: center;
+}
+header.seasons {
+	background-color: maroon; color: white;
+	text-align: center;
+	font-size: 100px;
+	font-family: "Courier New", courier, monospace;
+	margin: .25em;
+}
+.article {
+	background-color:blue;
+	margin: 100px;
+}
+h1.spring {
+	background-color: #42A10A; color: white;
+	text-align: center;
+	font-family:"Courier New", courier, monospace;
+}
+h1.summer{
+		background-color: #DFFA2B; color: white;
+	text-align: center;
+	font-family:"Courier New", courier, monospace;
+}
+h1.autumn{
+		background-color: #FFB92C; color: white;
+	text-align: center;
+	font-family:"Courier New", courier, monospace;
+}
+h1.winter{
+		background-color: blue; color: white;
+	text-align: center;
+	font-family:"Courier New", courier, monospace;
+}
+p.springg{
+	color: #B28744;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier New", courier, monospace;
+}
+p.summer{
+	color: #B28744;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier New", courier, monospace;
+}
+p.autumn{
+	color: #B28744;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier New", courier, monospace;
+}
+p.winter{
+	color: #B28744;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Courier New", courier, monospace;
+}
+.springtree {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.summertree{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.wintertree{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.falltree{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
