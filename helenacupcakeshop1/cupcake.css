@@ -1,0 +1,113 @@
+html, body {
+	background-color: #ccc;
+	font-family: Verdana, Geneva, sans-serif;
+}
+#wrap {
+	width: 60%;
+	margin: 0 auto;
+	
+}
+
+nav {
+ clear: both;
+ padding: 10px 0px;
+ background-color: #0ec8c7;
+}
+ 
+#red {
+	 background-color: #ec3632;
+	 overflow:auto;
+ }
+ 
+aside {
+	background-color: #ec3632;
+	float: left;
+	width: 20%;
+	
+	
+}
+
+nav li a {
+	color: #ffffff;
+	text-decoration:none;
+	margin: .50em;
+	
+}
+
+nav ul {
+	text-align: center;
+}
+
+aside li a {
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 25px;
+}
+nav li {
+	display: inline;
+	
+}
+aside li {
+	padding-top: 25px;
+	font-size: 1em;
+ }
+
+aside ul{
+	list-style-type: none;
+
+}
+
+nav ul {
+	list-style-type: none;
+	
+}
+
+article {
+	background-color: #ffffff;
+	width: 80%;
+	float: right;
+}
+
+article p{
+padding: 25px;
+
+}
+article h1 {
+	padding: 10px;
+}
+footer {
+	background-color: #0ec8c7;
+	clear: both;
+}
+
+
+header img {
+	width: 100%;
+}
+
+#buy {
+	width: 28%;
+	float: right;
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1100px) {
+  #wrap{
+   width: 95%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #wrap{
+  width: 95%;}
+   aside, article {
+	width: 99%;
+	   float: none;
+   }
+  
+  nav li {
+	  display: block;
+	  margin: 15px 0;
+  }
+}
+
