@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("climb.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ nav li {
+	  display: block;
+	  margin: 15px 0;
+  }
+  nav {
+ clear: both;
+ padding: 10px 0px;
+ background-color: #0ec8c7;
+}
+nav li a {
+	color: #ffffff;
+	text-decoration:none;
+	margin: .50em;
+	
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	
+}
+nav ul {
+	list-style-type: none;
+	
+}
