@@ -1,0 +1,76 @@
+html body {
+  height: 100%;
+  font-family:'stylish', sans-serif;
+}
+
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+header {
+	font-family: 'Oswald', sans-serif;
+	background-color: 4a1c1c;
+}
+
+nav {
+	font-family: 'Oswald', sans-serif;
+	
+}
+
+nav ul li a:hover {
+	color: blue;
+}
+
+nav ul li a {
+	font-size: 25px;
+}
+
+div.gallery :hover {
+  border: 1px solid #777;
+  color: orange;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+ nav li {
+	  display: ;
+	  margin: 25px 0;
+	  
+  }
+  nav {
+ padding: 10px 0px;
+ background-color: #0ec8c7;
+}
+
+nav li a {
+	color: #ffffff;
+	text-decoration:underline;
+	margin: .5em;
+	
+	
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	
+}
+
+
+body, iframe {
+	text-align: center;
+}
